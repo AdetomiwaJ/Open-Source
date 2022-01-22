@@ -69,11 +69,7 @@ for chap in e:
     verses = int(value)
 
 #Generate a random chapter
-#chap_select = random.randint(1, chapters)
 
-#verse = random.randint(1, verses)
-
-#verse = random.choice(list(chap_dict.values()))
 chapter = random.choice(list(chap_dict.keys())) # to select random chapter from Book
 no_of_verses = chap_dict[chapter] #to find the number of verses in the chapter
 
