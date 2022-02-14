@@ -1,0 +1,50 @@
+<MainLayout>
+GridLayout:
+	cols: 2
+	Image:
+		source: 'flames.jpeg'
+	Image:
+		source: 'flames.jpeg'
+	Label:
+		text: 'Your Name & Surname'
+		size_hint_y : None 
+		height : 50
+		
+			
+	TextInput:
+		id: name
+		multiline: False
+		size_hint_y : None 
+		height : 50
+		
+	Label:
+		text: "The other person\'s Name & Surname"
+		size_hint_y : None 
+		height : 50
+	
+	TextInput:
+		id: other_name
+		multiline : False
+		size_hint_y : None 
+		height : 50
+			
+	Button:
+		text: 'Exit'
+		on_press: quit()
+		size_hint_y : None 
+		height : 50
+	Button:
+		text: 'Find your FLAME!'
+		size_hint_y : None 
+		height : 50
+		on_release: root.do_action()
+		
+		
+	Label:
+		id: Result_label
+		size_hint_y : None 
+		height : 100
+	Label:
+		id: Display_label
+		size_hint_y : None 
+		height : 100
