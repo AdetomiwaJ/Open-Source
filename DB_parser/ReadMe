@@ -1,0 +1,15 @@
+Author: Adetomiwa Jeminiwa
+
+There are two scripts in this project
+- big_db_script.py: created by ChatGPT
+    This script will create a sample database with dummy data for you to play around with, feel free to edit.
+
+- DB_csvparser.py: created by me :D
+    This simple script parses through a .db file and produces .csv files.
+    It creates a .csv file per table in the database.
+
+You can also download db test files from
+- https://www.reddit.com/r/SQL/comments/s0tbnw/is_there_a_place_i_can_download_sample_databases/
+- https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/
+- https://wiki.postgresql.org/wiki/Sample_Databases
+
