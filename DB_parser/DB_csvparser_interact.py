@@ -55,7 +55,7 @@ for s in select.split(','):
 
 
     except Exception as e:
-        print("Skipped table:", choice, "because", e)
+        print("Skipped table:", s, "because", e)
         continue
 
 print("Done parsing",db_input)
